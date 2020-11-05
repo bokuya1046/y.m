@@ -1,0 +1,89 @@
+.title {
+  color: #00bfff;
+}
+
+h2 {
+  font-family: sans-serif;
+  color: white;
+  background: linear-gradient(90deg, #00bfff, #fff);
+  padding: 5px 10px;
+  transition: all 1s;
+}
+
+
+header {
+  height: 50px;
+  width: 100%;
+  background: linear-gradient(90deg, #00bfff, #99e6ff);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+}
+
+header h1 {
+  color: white;
+  font-size: 30px;
+  font-family: "Montserrat";
+  padding-left: 10px;
+  position: absolute;
+  top: -15px;
+  float: left;
+
+}
+
+header ul {
+  float: right;
+  margin-right: 10px;
+  text-decoration: none;
+}
+
+header li {
+  float: left;
+  display: inline-block;
+  padding: 0px 20px;
+  font-family: "Montserrat";
+
+}
+
+.title {
+  margin-top: 80px;
+}
+
+img {
+height: 200px;
+margin: auto;
+}
+
+.body {
+  width: 85%;
+  margin: 0 auto;
+}
+
+
+
+.button {
+  display: inline-block;
+  position: fixed;
+  right: 15px;
+  bottom: 15px;
+  padding: 10px;
+  color: gray;
+  font-size: 15px;
+  border: 2px solid;
+  border-radius: 4px;
+  background:rgba(163,163,163,0.8);
+  transition: all 1s;
+}
+
+.button:hover {
+  background:rgba(163,163,103,1.0);
+}
+
+.button a {
+  display: block;
+  text-decoration: none;
+  font-family: "Montserrat";
+  font-weight: bold;
+  color: white;
+}
